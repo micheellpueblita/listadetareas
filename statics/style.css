@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(18, 8, 61);
+}
+@font-face {
+    font-family:"letrabonita";
+    src: url("./fonts/letra.ttf");
+}
+.letraTitulo{
+    font-family: letrabonita, Helvetica, sans-serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.letra{
+    font-family: letrabonita, Helvetica, sans-serif; 
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.redondeo{
+    border-radius: 15px;
+    border-color: rgb(5, 35, 119);
+    border-width: 3px;
+}
+#rectangulo{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 22%;
+    left: 27%;
+    border-radius: 15px;
+    text-align: center;
+}
+#rectangulohijo{
+    background-color: rgb(160, 137, 9);
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: 27%;
+    border-radius: 15px;
+    text-align: center;
+}
+#rectangulodatos{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 27%;
+    top: 10%;
+    border-radius: 15px;
+    text-align: center;
+}
