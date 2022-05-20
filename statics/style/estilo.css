@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0%;
+    margin-top: 5%;
+}
+
+@font-face {
+    font-family:"letrabonita";
+    src: url("./fonts/letra.ttf");
+}
+
+h1{
+    font-family: letrabonita, Helvetica, sans-serif; 
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 137, 9);
+    border-radius: 15px;
+}
+

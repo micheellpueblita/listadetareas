@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad tarea</title>
+    <link rel="stylesheet" href="./statics/style/estilo.css">
+</head>
+<body>
+    <form id="form" method="post">
+        <h1>Registra tus tareas</h1>
+        <input id="input" class="texto" type="text" placeholder="Escribe tu tarea" required/><br><br>
+        <select id="Listamaterias">
+            <option value="Computación">Computación</option>
+            <option value="Biología">Biología</option>
+            <option value="Pintura">Pintura</option>
+            <option value="Geografía">Geografía</option>
+            <option value="Astronomía">Astronomía</option>
+            <option value="Otra">Otra</option>
+        </select><br><br>
+        <div id="materiaNueva"></div>
+        <br><button type="button" id="boton" >Añadir</button><br><br>
+    </form>
+    <div id="tareas">
+        <h1>Tareas Pendientes</h1>
+        <ul id="listaTareas">
+
+        </ul>
+    </div>
+    <script src="./dynamics/index.js"></script>
+</body>
+</html>
